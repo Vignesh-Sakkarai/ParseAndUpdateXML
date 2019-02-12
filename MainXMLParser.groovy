@@ -4,7 +4,7 @@ class MainXMLParser {
 
     static void main(String[] args) {
 
-      def xmlfilePath = "/Users/vignesh/Desktop/.xml"
+      def xmlfilePath = "/Users/vignesh/Desktop/test.xml"
 
       def xml = new XmlParser().parse(xmlfilePath)
 
